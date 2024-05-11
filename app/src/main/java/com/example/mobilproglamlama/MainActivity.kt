@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
             val name = icerikKutusu
             intent.putExtra( "ICERIK",kutuicerigi)
             startActivity(intent)
+
+            println("ikinci commit")
         }
     }
 }
